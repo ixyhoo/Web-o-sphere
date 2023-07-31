@@ -13,7 +13,7 @@ body {
 nav {
    /* background: #00bfff;*/
     width: 100%;
-    height: 150px;
+    height: auto;
     border-bottom: 1px solid #00bfff;
     
 }
@@ -27,7 +27,7 @@ ul {
     align-items: center;
     height: 100%;
     color: #00ff00;
-    font-size: larger;
+    font-size: 1.2rem;
     font-weight: bolder;
     padding: 0 20px;
     
@@ -41,7 +41,8 @@ h1 {
 #mark-name {
     color: #ffffff;
     /*display: inline-block;*/
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
     
 }
 h2 {
@@ -55,6 +56,15 @@ span {
 
 .about-container {
     color: #ffffff;
-    
+    border: 2 px solid #808080;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    box-shadow: #00bfff 0px 0px 10px 0px;
 
 }
