@@ -68,3 +68,79 @@ span {
     box-shadow: #00bfff 0px 0px 10px 0px;
 
 }
+.comments-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .comment-list {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+  }
+  
+  .comment-form {
+    margin-top: 20px;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .comment-form button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  .newsletter-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .newsletter-form button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  .tag-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .tag-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag-list li {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+     
