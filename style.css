@@ -1,13 +1,18 @@
 
-
-body {
-    background: #808080;
-    width: 100%;
-    height: auto;
-    color: #ffffff;
-    box-sizing: border-box;
+* {
+    box-sizing: border-box;    
     margin: 0;
     padding: 0;
+     width: 100%;
+     height: auto; 
+       
+}
+body {
+   
+   background: #808080;
+    color: #ffffff;
+    box-sizing: border-box;
+
 }
 
 nav {
@@ -58,6 +63,7 @@ span {
     color: #ffffff;
     border: 2 px solid #808080;
     width: 70%;
+    height: auto; 
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -69,7 +75,7 @@ span {
 
 }
 .comments-section {
-    background-color: #f0f0f0;
+    background-color: #808080;
     padding: 20px;
   }
   
@@ -105,7 +111,7 @@ span {
     cursor: pointer;
   }
   .newsletter-section {
-    background-color: #fff;
+    background-color: #808080;
     padding: 20px;
     text-align: center;
   }
@@ -125,7 +131,7 @@ span {
     cursor: pointer;
   }
   .tag-section {
-    background-color: #f0f0f0;
+    background-color: #808080;
     padding: 20px;
   }
   
